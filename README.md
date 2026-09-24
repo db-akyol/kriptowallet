@@ -1,6 +1,6 @@
-# DenoWallet — Kripto Portföy Takibi ve AI Piyasa Analisti
+# KriptoWallet — Kripto Portföy Takibi ve AI Piyasa Analisti
 
-DenoWallet, birden fazla borsa ve cüzdandaki kripto varlıklarınızı tek ekranda toplayan, canlı fiyatlarla kâr/zarar hesaplayan ve yapay zekâ destekli günlük Bitcoin piyasa analizi sunan bir web uygulamasıdır. Portföy verileri tarayıcınızda (localStorage) saklanır; fiyatlar CoinGecko üzerinden, analizler ise Vercel serverless fonksiyonları aracılığıyla toplanan piyasa/teknik/on-chain/haber verileri kullanılarak LLM ile üretilir. Kendi varlık dağılımını disiplinli takip etmek isteyen bireysel kripto yatırımcıları için tasarlanmıştır. Arayüz tamamen Türkçedir ve AI analisti de Türkçe yanıt verir.
+KriptoWallet, birden fazla borsa ve cüzdandaki kripto varlıklarınızı tek ekranda toplayan, canlı fiyatlarla kâr/zarar hesaplayan ve yapay zekâ destekli günlük Bitcoin piyasa analizi sunan bir web uygulamasıdır. Portföy verileri tarayıcınızda (localStorage) saklanır; fiyatlar CoinGecko üzerinden, analizler ise Vercel serverless fonksiyonları aracılığıyla toplanan piyasa/teknik/on-chain/haber verileri kullanılarak LLM ile üretilir. Kendi varlık dağılımını disiplinli takip etmek isteyen bireysel kripto yatırımcıları için tasarlanmıştır. Arayüz tamamen Türkçedir ve AI analisti de Türkçe yanıt verir.
 
 [![Vue](https://img.shields.io/badge/Vue-3.3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)

@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       {
         headers: {
           'Accept': 'application/json',
-          'User-Agent': 'DenoWallet/1.0'
+          'User-Agent': 'KriptoWallet/1.0'
         }
       }
     );
@@ -39,7 +39,7 @@ export default async function handler(req, res) {
       {
         headers: {
           'Accept': 'application/json',
-          'User-Agent': 'DenoWallet/1.0'
+          'User-Agent': 'KriptoWallet/1.0'
         }
       }
     );

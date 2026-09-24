@@ -9,7 +9,7 @@
             </svg>
           </div>
           <div class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-            DenoWallet
+            KriptoWallet
           </div>
         </div>
         

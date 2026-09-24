@@ -14,11 +14,11 @@ export default async function handler(req, res) {
     const [btcDataRes, globalRes, onchainRes, btcHistoryRes, newsRes] = await Promise.all([
       // Market data
       fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin,ethereum&order=market_cap_desc&sparkline=false', {
-        headers: { 'Accept': 'application/json', 'User-Agent': 'DenoWallet/1.0' }
+        headers: { 'Accept': 'application/json', 'User-Agent': 'KriptoWallet/1.0' }
       }).then(r => r.json()).catch(() => null),
       // Global market data
       fetch('https://api.coingecko.com/api/v3/global', {
-        headers: { 'Accept': 'application/json', 'User-Agent': 'DenoWallet/1.0' }
+        headers: { 'Accept': 'application/json', 'User-Agent': 'KriptoWallet/1.0' }
       }).then(r => r.json()).catch(() => null),
       // On-chain data
       fetch('https://api.blockchain.info/stats', {
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
       }).then(r => r.json()).catch(() => null),
       // Price history for technical indicators (30 days)
       fetch('https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily', {
-        headers: { 'Accept': 'application/json', 'User-Agent': 'DenoWallet/1.0' }
+        headers: { 'Accept': 'application/json', 'User-Agent': 'KriptoWallet/1.0' }
       }).then(r => r.json()).catch(() => null),
       // News from CryptoPanic
       fetch('https://cryptopanic.com/api/v1/posts/?auth_token=public&public=true&filter=hot&currencies=BTC,ETH', {
